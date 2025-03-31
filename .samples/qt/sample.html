@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>Quicktime streaming sample</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <!-- Facebook Pixel Code -->
+  <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+            n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+      if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+      n.queue=[];t=b.createElement(e);t.async=!0;
+      t.src=v;s=b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t,s)}(window, document,'script',
+            'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '602551787700218');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+                 src="https://www.facebook.com/tr?id=602551787700218&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Facebook Pixel Code -->
+
+</head>
+<body bgcolor="#FFFFFF" text="#000000">
+<br>
+<br>
+<table width="50%" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr> 
+    <td valign="top"> 
+      <p><b><font size="2" face="Arial, Helvetica, sans-serif">Embedded Quicktime 
+        Video in a web page sample</font></b></p>
+      <p align="center"><embed src="sample-reference.mov" width="242" height="199" autoplay="true" loop="false" controller="true"
+		bgcolor="#666666" pluginspage="http://www.apple.com/quicktime/">
+        </embed></p>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">The example above 
+        is an embedded Quicktime streaming media clip named &#147;sample.mov&#148; 
+        that is stored for streaming on your hosting service. The real location 
+        of this file is html/_qt/sample.mov. This is where you should upload all 
+        of your videos for streaming. The movie you see uses a reference movie 
+        file named &quot;<i>sample-reference.mov</i>&quot; which is located in 
+        the directory html/.samples/qt/.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">You may also access 
+        your media clips directly with the Quicktime Media Player using the following 
+        two URLs:</font></p>
+      <blockquote> 
+        <p><font face="Arial, Helvetica, sans-serif" size="2">rtsp://<strong>ss48.shared.server-system.net</strong>:554/<strong>jeresmith</strong>/sample.mov<br>
+          (streaming version)</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">...or</font></p>
+        <p><font face="Arial, Helvetica, sans-serif" size="2">http://<strong>jeresmith.com</strong>/_qt/sample.mov<br>
+          (non-streaming version that progressively downloads) </font></p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The streaming version 
+        actually uses the special DSS (Darwin Streaming Server) software to stream 
+        the media clip to the web browser and takes advantage of DSS's special 
+        features. The non-streaming version just attempts to play the file directly 
+        off of the web server with no special streaming features. Non-streaming 
+        media clips can be stored anywhere in your HTML directory.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The HTML code used 
+        to embed the media clip above is shown below. You may duplicate this example 
+        for any number of other Quicktime videos in your own web pages.</font></p>
+      <blockquote> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"> <i>&lt;embed src=&quot;sample-ref.mov&quot; 
+          width=&quot;242&quot; height=&quot;199&quot; bgcolor=&quot;#666666&quot;<br>
+          autoplay=&quot;true&quot; loop=&quot;false&quot; controller=&quot;true&quot; 
+          pluginspage=&quot;http://www.apple.com/quicktime/&quot;&gt;<br>
+          &lt;/embed&gt;</i></font></p>
+      </blockquote>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Notice that the source 
+        <i>&quot;sample-reference.mov&quot;</i> is actually just a small text 
+        file sitting in the html/samples/qt/ directory. This is known as a &quot;reference 
+        file&quot;. It contains one line:</font></p>
+      <blockquote> 
+        <p><font size="2" face="Arial, Helvetica, sans-serif"><i>rtsptext rtsp://<strong>ss48.shared.server-system.net</strong>:554/</i><strong>jeresmith</strong>/<i>sample.mov</i></font></p>
+      </blockquote>
+      <p><font size="2" face="Arial, Helvetica, sans-serif">This is a link to 
+        your actual streaming media clip. The reference file method is required 
+        when embedding media clips in web pages, and it also makes it possible 
+        to have virtual media clips anywhere in your website directory. Of course 
+        the real media clips need to be stored in the html/_qt/ directory. Reference 
+        movies also permit additional functionality such as loading certain media 
+        clips based on the connection speed of your viewing audience.</font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The sample HTML code 
+        above also contains some special options that dictate how the media clip 
+        behaves once loaded. (Example: autoplay=&quot;true&quot;, which automatically 
+        plays the clip once the page is loaded.) The are many other variations 
+        and options for embedding clips into your web pages. We suggest visiting 
+        the knowledge links below to learn more about the special options that 
+        can control your embedded clips. </font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2"><b>Additional Knowledge:</b></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">The information and 
+        samples we have provided here a brief and to the point. Apple.com maintains 
+        a plethora of additional information regarding Quicktime and streaming 
+        media. Please visit the following link for more tutorials, support, and 
+        development information: <a href="http://www.apple.com/quicktime/products/tutorials/" target="_blank">http://www.apple.com/quicktime/products/tutorials/</a></font></p>
+      <p><font face="Arial, Helvetica, sans-serif" size="2">Quicktime tutorial:<br>
+        <a href="http://www.apple.com/quicktime/products/tutorials/" target="_blank">http://www.apple.com/quicktime/products/tutorials/</a><br>
+        Streaming overview:<br>
+        <a href="http://www.apple.com/quicktime/products/tutorials/streaming.html" target="_blank">http://www.apple.com/quicktime/products/tutorials/streaming.html</a><br>
+        Preparing Streaming clips:<br>
+        <a href="http://www.apple.com/quicktime/products/tutorials/preparingtostream.html" target="_blank">http://www.apple.com/quicktime/products/tutorials/preparingtostream.html</a><br>
+        Reference movies:<br>
+        <a href="http://www.apple.com/quicktime/products/tutorials/refmovies.html" target="_blank">http://www.apple.com/quicktime/products/tutorials/refmovies.html</a></font></p>
+      <p>&nbsp;</p>
+    </td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
+

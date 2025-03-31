@@ -1,0 +1,260 @@
+/* JERESMITH.COM CSS FILE CREATED BY LOOKATLAOSTUDIO */
+/* http://www.jeresmith.com | http://www.lookatlao.com */
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
+	text-align: center;
+	color: #333;
+	background: #34564C url(../image/bg-main.gif) repeat left top;
+}
+
+#wrapper {
+	position: relative;
+	margin: 0 auto;
+	padding:0;
+	text-align: left;
+	width: 800px;
+	background: #fff url(../image/bg-wrapper-gif) repeat left top;
+}
+
+body#home #main-body { margin: 0; padding: 0; height: 450px; }
+body#contactpage #main-body { margin: 0; padding: 0; height: 450px; }
+body#aboutpage #main-body { margin: 0; padding: 0; }
+
+#logo-head {
+	width: 800px;
+	height: 125px;
+	z-index: 0;
+	background: #fff url(../image/img-logobar-small.jpg) no-repeat left top;
+}
+
+#home-nav {
+	position: absolute;
+	top: 255px;
+	left: 496px;
+	width: 258px;
+}
+#main-nav {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	top: 51px;
+	left: 359px;
+	width: 400px;
+	z-index: 99;
+	height: 50px;
+}
+
+#column {
+	margin: 0;
+	padding: 30px 45px 0 357px;
+}
+
+body#contact-jere #column { height: 360px; padding-top: 150px; }
+body#objects #column { padding: 30px 45px 0 340px; }
+
+#footer {
+	margin: 0 0 -10px 0;
+	padding: 0;
+	height: 25px;
+	width: 100%;
+	background: url(../image/bg-footer.gif) no-repeat left top;
+}
+/*--------------------------------------------------------
+										   LINKAGE
+---------------------------------------------------------*/
+a:link, a:visited { color: #35564C; text-decoration: none; border-bottom: 1px dotted #35564C; }
+a:hover { color: #FF3300; text-decoration: none; border-bottom: 1px dotted #FF3300; }
+
+/*--------------------------------------------------------
+										NAVIGATION
+---------------------------------------------------------*/
+ul#tabs {
+	height: 50px;
+	width: 400px;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul#tabs li {
+	height: 50px;
+	margin: 0; 
+	padding: 0;
+	display: block;
+	float:left;
+}
+
+#tabs a {
+	height: 50px;
+	display: block;
+	float: left;
+	color: #fff;
+}
+
+li#about a { width: 118px; height: 50px; margin: 0; padding: 0 15px 0 0; display: block; float: left; background: url(../image/nav-about-fir.gif) no-repeat left top; border-bottom: none; }
+li#portfolio a { width: 91px; height: 50px; margin: 0; padding: 0 15px 0 0; display: block; float: left; background: url(../image/nav-portfolio-fir.gif) no-repeat left top; border-bottom: none;  }
+li#spend a { width: 63px; height: 50px; margin: 0; padding: 0; display: block; float: left; background: url(../image/nav-spend-fir.gif) no-repeat left top; border-bottom: none; }
+li#contact a { width: 79px; height: 50px; margin: 0; padding: 0 15px 0 0; display: block; float: left; background: url(../image/nav-contact-fir.gif) no-repeat left top; border-bottom: none;  }
+li#links a { width: 49px; height: 50px; background: url(../image/nav-links-fir.gif) no-repeat left top; border-bottom: none;  }
+
+#tabs li a:hover {
+	background-position: 0px -50px;
+}
+#tabs li a.here {
+	background-position: 0px -50px;
+}
+#tabs li a span {
+	display: none;
+}
+
+#subnav { position:absolute; left:18px; top:165px; width:180px; }
+div#subnav ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+	
+}
+div#subnav ul li {
+	padding: 5px 0 5px 25px;
+	margin: 0;
+}
+div#subnav ul li a {
+	font-size: 14px;
+	padding: 5px 0 5px 25px;
+	border-bottom: none;
+}
+
+div#subnav ul li a:link, div#subnav ul li a:visited {
+	text-decoration: none;
+	color: #333;
+	border-bottom: none;
+}
+
+div#subnav ul li a:hover {
+	text-decoration: none;
+	color: #175AB1;
+	background: url(../image/img-smalleye.gif) no-repeat 0px 50%;
+	border-bottom: none;
+}
+
+div#subnav ul li a#here {
+	background: url(../image/img-smalleye.gif) no-repeat 0px 50%;
+	color: #175AB1;
+}
+
+
+
+/*--------------------------------------------------------
+										FORMATTING
+---------------------------------------------------------*/
+h1, h2, h3, h4, h5, h6 { font-family: "Lucida Grande", Tahoma, Verdana, sans-serif; }
+p, ul, li, dl, dt, dd { font-family: "Lucida Grande", Tahoma, Verdana, sans-serif; }
+
+p { font-size: 12px; line-height: 18px; margin: 10px 0 12px 0; }
+h1 { font-size: 22px; margin: 0 0 5px 0;}
+h2 { font-size: 16px;}
+dl { margin: 0; padding: 0; }
+dt {
+	margin: 0;
+	padding: 0;
+	font-size: 14px;
+	font-weight: bold;
+}
+dd {
+	margin: 0 0 11px 0;
+	padding: 0;
+	font-size: 12px;
+}
+
+dt a:link, dt a:visited {
+	color:#c30;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+dt a:hover {
+	color:#000;
+	text-decoration: none;
+	border-bottom: none;
+}
+
+/*--------------------------------------------------------
+										SPECIAL TYPE
+---------------------------------------------------------*/
+
+div#footer p {
+	margin: 5px 0 0 20px;
+	padding-top: 5px;
+	font-size: 10px;
+	color: #6AAC98;
+}
+
+td h2 {
+	margin: 10px 0 0 0;
+	padding: 0;
+	font-size: 12px;
+	color: #777;
+}
+div#baggage h1 { margin: 0; padding: 0; font-size: 16px; font-weight: normal; color: #333; }
+h1.series { text-align: center; margin: 0 0 10px 0; font-size: 16px; font-weight: normal; }
+h1.series span { color: #ccc; }
+div#artwork-title p { margin: 0; }
+
+p.resume { margin: 5px 0 5px 0; padding: 10px 10px 10px 50px; background: #eed url(../image/icon-pdf.gif) no-repeat 5px 50%; border: 1px solid #ccc; }
+
+/*--------------------------------------------------------
+										SPECIAL LAYOUT DIVS
+---------------------------------------------------------*/
+#aboutblurb1 { position:absolute; left:35px; top:153px; width:170px; z-index:10; }
+#aboutblurb1 h2 { margin: 0; }
+#aboutblurb2 { position:absolute; left:109px; top:476px; width:206px; z-index:10; }
+#aboutblurb2 p { margin: 0; font-size: 10px; line-height: 14px; color: #666;}
+#aboutimg1 { position:absolute; left:1px; top:175px; width:224px; height:167px; z-index:5; }
+#koan { position:absolute; left:20px; top:689px; z-index:1; width: 310px; height: 146px; }
+
+#artwork { margin: 0 0 20px 40px; }
+#artwork-title { margin: 0 0 20px 40px; padding: 0; }
+#artwork-title h3 { margin: 0; padding: 0; font-size: 14px; font-weight: normal; color: #999; }
+#artwork-title h3 strong { color: #333; font-weight: bold; margin-right: 10px; }
+#back { position:absolute; left:20px; top:5px; width:106px; z-index:99 }
+#back p { font-size: 10px; margin: 0; }
+#back a:link, #back a:visited { color: #7AC7B0; text-decoration: none; }
+#back a:hover { color: #f60; }
+
+#object { position:absolute; left:20px; top:172px; width:305px; height:225px; z-index:1; }
+#robot { position:absolute; left:20px; top:364px; z-index:1; }
+#baggage, #comics { margin: 0 40px 20px 40px; }
+
+#outerchild { position:absolute; left:20px; top:133px; width:189px; height:233px; z-index:1; }
+#contactcopy { position:absolute; left:318px; top:204px; width:415px; z-index:1; }
+
+#linkage { position:absolute; left:34px; top:133px; width:189px; height:233px; z-index:1; }
+#linkcopy { position:absolute; left:72px; top:159px; width:241px; z-index:1; height: 386px; }
+
+#infobox { position:absolute; left:71px; top:340px; width:205px; z-index:1; }
+
+
+/*--------------------------------------------------------
+										TABLES
+---------------------------------------------------------*/
+table#icons {
+	margin: 0 0 20px 0;
+	padding: 0;
+}
+
+table#icons img {
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+table.giclee {
+	margin: 0;
+}
+
+table.giclee td {
+	margin: 0;
+	vertical-align: top;
+}
